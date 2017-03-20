@@ -23,7 +23,6 @@ function getName() {
 	var name = prompt("enter name");
 	return name;
 } 
-getName()
 
 //////////////////PROBLEM 3////////////////////
 
@@ -40,7 +39,6 @@ function welcome() {
 	
 }
 
-welcome();
 
 
 
@@ -52,7 +50,7 @@ welcome();
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+ // a parameter is the variable being passed into the function. an argument is what the parameter becomes and the actual datta being used in the function. 
 
 
 //////////////////PROBLEM 5////////////////////
@@ -62,7 +60,7 @@ welcome();
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  //Answer Here
+// 0, undefined, not a number (NaN), false, '' (empty string), null
 
 
 
@@ -72,17 +70,22 @@ welcome();
 
 //Create a function called myName that returns your name
 
-  //Code Here
-
+function myName() {
+	var name = 'Andrew';
+	return name;
+}
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
+function newMyName() {
+
+var newMyName = myName();
 
 //Now alert the result of invoking newMyName
 
-
+alert(newMyName);
+}
 
 //////////////////PROBLEM 7////////////////////
 
